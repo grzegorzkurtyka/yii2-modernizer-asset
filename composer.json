@@ -1,0 +1,19 @@
+{
+    "name": "grzegorzkurtyka/yii2-modernizer-asset",
+    "description": "yii2-modernizer-asset",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Grzegorz Kurtyka",
+            "email": "grzegorz.kurtyka@gmail.com"
+        }
+    ],
+    "require": {
+        "bower-asset/modernizr": "~2.8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "grzegorzkurtyka\\modernizr\\": ""
+        }
+    }
+}
