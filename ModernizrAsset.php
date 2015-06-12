@@ -13,7 +13,7 @@ class ModernizrAsset extends AssetBundle {
 
     public $sourcePath = '@bower/modernizr';
     public $js = ['modernizr.js'];
-    public $jsOptions[
+    public $jsOptions = [
       'position' => View::POS_BEGIN
     ];
 }
