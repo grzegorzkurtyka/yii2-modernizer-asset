@@ -14,6 +14,6 @@ class ModernizrAsset extends AssetBundle {
     public $sourcePath = '@bower/modernizr';
     public $js = ['modernizr.js'];
     public $jsOptions = [
-      'position' => \yii\web\View::POS_BEGIN
+      'position' => \yii\web\View::POS_HEAD
     ];
 }
